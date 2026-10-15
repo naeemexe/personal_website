@@ -3,53 +3,227 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naeem Islam - Portfolio</title>
+    <title>Md Naeem Islam</title>
+    <meta name="description" content="Md Naeem Islam: Computer Science student at Texas Tech University working on HPC, GPU computing, AI agents, and computer architecture.">
+    <meta property="og:title" content="Md Naeem Islam">
+    <meta property="og:description" content="CS @ Texas Tech · HPC, GPU computing, AI agents, and computer architecture.">
+    <meta property="og:image" content="https://www.naeemislam.com/assets/lakeside.jpg">
+    <meta property="og:url" content="https://www.naeemislam.com">
+    <meta name="theme-color" content="#0b0d10">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d10'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='%234f8cff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <div class="container">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-1.97c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 5h18v14H3zM3 6l9 7 9-7"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
+    </svg>
 
-      <header class="header">
-        <div class="logo">
-          <img src="Naeem.svg" alt="Logo">
-        </div>
-      </header>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a href="#top" class="logo" aria-label="Home">Naeem<span class="dot">.</span></a>
+        <nav class="nav-links" aria-label="Sections">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" class="nav-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-      <section class="hero-section">
-
+    <main id="top">
+      <section class="hero container">
         <div class="hero-content">
-          <p class="greeting">Hello, it's me</p>
-          <h1 class="name">Naeem<span class="dot">.</span></h1>
-          <p class="description">
-            An enthusiastic learner and aspiring engineer passionate about combining technology, science, and creativity to create meaningful impact. I focus on designing intelligent systems, building data-driven models, and exploring how collaboration can drive innovation.
+          <p class="eyebrow">Computer Science · Texas Tech University</p>
+          <h1 class="name">Md Naeem Islam<span class="dot">.</span></h1>
+          <p class="lede">
+            I build fast systems and the AI tooling that runs on them: tuning supercomputer benchmarks,
+            writing CUDA kernels, building agents that make scientific data usable, and wiring computers
+            from logic gates up.
           </p>
-          <a href="#more" class="scroll-link">SCROLL FOR MORE</a>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:naeem.islam@ttu.edu">
+              <svg class="icon"><use href="#i-mail"/></svg> Contact me
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/mdnaeemislam" target="_blank" rel="noopener">
+              <svg class="icon"><use href="#i-linkedin"/></svg> LinkedIn
+            </a>
+            <a class="btn" href="https://github.com/naeemexe" target="_blank" rel="noopener">
+              <svg class="icon"><use href="#i-github"/></svg> GitHub
+            </a>
+          </div>
+          <ul class="stats">
+            <li><strong>4.0</strong><span>GPA · 2× President's Honors</span></li>
+            <li><strong>6.2 TFLOP/s</strong><span>HPL on HPE Cray EX</span></li>
+            <li><strong>~1,000×</strong><span>GPU speedup, CUDA-Q</span></li>
+          </ul>
         </div>
-
-        <div class="hero-image">
-          <img src="D010.jpeg" alt="Naeem Portrait">
+        <div class="hero-photo">
+          <img src="assets/portrait.jpg" alt="Portrait of Naeem Islam" width="587" height="635">
         </div>
-
       </section>
 
-      <section class="about-section">
-
-        <div class="skills-column">
-          <p class="section-title">MY SKILLSET</p>
-          <h2 class="skills-list">Problem Solving, Computational Design, Research & Collaboration</h2>
-          <p class="section-title">MY PROCESS</p>
+      <section id="about" class="section container about">
+        <div class="about-photo">
+          <img src="assets/lakeside.jpg" alt="Naeem by a lake at night with city lights behind" width="1280" height="960" loading="lazy">
         </div>
-
-        <div class="about-column">
-          <p class="about-text">
-            I work on turning ideas into functional models and systems. My experience spans simulation and design using SolidWorks and ANSYS, data processing in MATLAB, and programming with Python and C.
-            I have collaborated with university researchers and undergraduate teams on projects focused on biomedical simulations and computational modeling. Each project is an opportunity to connect knowledge with purpose and to make technology more human-centered and impactful.
+        <div>
+          <p class="section-label">About</p>
+          <h2>From NAND gates to GPU clusters.</h2>
+          <p>
+            I'm pursuing a B.S. in Computer Science with a minor in Mathematics at Texas Tech University
+            (expected May 2029). My work sits where hardware meets AI: high-performance computing, GPU
+            programming, computer architecture, and agentic AI systems for science.
+          </p>
+          <p>
+            Outside of research I'm the Programming Lead for Google Developers Group and Technical Officer
+            for CodePath at TTU. Coursework includes Modern Digital Systems, Data Structures &amp; Algorithms,
+            Object-Oriented Programming, and Computational Thinking.
           </p>
         </div>
-
       </section>
 
-    </div> 
+      <section id="experience" class="section container">
+        <p class="section-label">Research &amp; experience</p>
+        <h2>Where I've been working</h2>
+        <ol class="timeline">
+          <li class="role">
+            <div class="role-head">
+              <h3>AI/ML Fellow</h3>
+              <span class="when">Aug 2026 – Present</span>
+            </div>
+            <p class="org">Cornell Tech · Accenture</p>
+            <ul>
+              <li>Building a multi-label transformer NLP pipeline with rule-based risk scoring on 510 contracts across 41 clause types.</li>
+            </ul>
+          </li>
+          <li class="role">
+            <div class="role-head">
+              <h3>AI Research Intern</h3>
+              <span class="when">May 2026 – Aug 2026</span>
+            </div>
+            <p class="org">NSF Ocean Observatories Initiative (WHOI), Massachusetts</p>
+            <ul>
+              <li>Built <em>ooi-agent</em>, an open-source MCP server and JupyterLab toolkit that lets AI coding agents resolve and fetch data for 993 instruments and 2,045 data streams across 60 sites and 8 arrays via THREDDS, kdata, and M2M APIs.</li>
+              <li>Engineered a context engine and RAG layer over a 3,593-entry parameter map, plus MCP tools that rank fiber-optic, satellite, and recovered streams by availability, compare overlaps, and flag data gaps.</li>
+            </ul>
+          </li>
+          <li class="role">
+            <div class="role-head">
+              <h3>Honors Undergraduate Research Scholar</h3>
+              <span class="when">Mar 2026 – Present</span>
+            </div>
+            <p class="org">DISCL Lab, Texas Tech University</p>
+            <ul>
+              <li>Researching an agentic pipeline that routes genomic variants through a hierarchy of specialist transformers, with AI agents pulling ClinVar and gnomAD evidence and re-routing mismatches.</li>
+              <li>Training the transformer hierarchy and writing CUDA kernels to batch variant inference on HPC GPUs, benchmarked against DNABERT-2, HyenaDNA, and AlphaMissense on accuracy, recall, and GPU utilization.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section id="projects" class="section container">
+        <p class="section-label">Projects</p>
+        <h2>Things I've built</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Winter Classic Student Cluster</h3>
+            <p class="tags">C · Fortran · Python · MPI · OpenMP · OpenACC · CUDA-Q</p>
+            <ul>
+              <li>Tuned HPL on a 2-node, 256-core HPE Cray EX cluster to 6.2 TFLOP/s (75.8% of peak); raised HPCG efficiency from 4% to 17% on 4 AMD EPYC nodes.</li>
+              <li>Benchmarked CUDA-Q on H100/V100: a 31-qubit GHZ circuit ran ~1,000× faster on GPU, tensor networks scaled to 1,760 qubits.</li>
+              <li>Cut quantum transfer-learning training time 5× at Oak Ridge and tested on a real IQM device.</li>
+            </ul>
+            <a class="card-link" href="https://github.com/naeemexe/winterclassic" target="_blank" rel="noopener">View on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="card">
+            <h3>Nand2Tetris, 8-bit CPU &amp; VGA Card</h3>
+            <p class="tags">HDL · Assembly · 74LS logic · EEPROM</p>
+            <ul>
+              <li>Built the full NAND-to-Tetris stack: a 16-bit computer in HDL plus its assembler, VM translator, compiler, and OS.</li>
+              <li>Built a breadboard 8-bit computer from 74LS chips running 11 EEPROM-microcoded instructions.</li>
+              <li>Wired a discrete-logic VGA card generating 800×600 @ 60 Hz to display a 64-color image through a resistor DAC.</li>
+            </ul>
+            <a class="card-link" href="https://github.com/naeemexe/nand2tetris" target="_blank" rel="noopener">View on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="card">
+            <h3>Real-Time Face-Tracking Camera</h3>
+            <p class="tags">OpenCV · MediaPipe · ONNX Runtime · Dynamixel SDK</p>
+            <ul>
+              <li>2-axis pan-tilt camera driving Dynamixel servos at 4 Mbps with tuned PID gains and batched sync packets.</li>
+              <li>Compared Haar, MediaPipe, YOLOv8, and CUDA ONNX detectors; added an 8-state Kalman filter to predict through missed frames.</li>
+            </ul>
+            <a class="card-link" href="https://github.com/naeemexe/dynamixel-face-tracking" target="_blank" rel="noopener">View on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="card">
+            <h3>Animo: Text-to-3D Animation</h3>
+            <p class="tags">JavaScript · three.js · Python · Gemini · NVIDIA Kimodo</p>
+            <ul>
+              <li>Full-stack pipeline (HackWesTX) that turns text prompts into multi-character 3D animated scenes.</li>
+              <li>Gemini plans the scene, NVIDIA Kimodo generates motion on GPU, and a three.js engine retargets and blends it across VRM characters; Nano Banana + TRELLIS generate the 3D props.</li>
+            </ul>
+            <a class="card-link" href="https://github.com/naeemexe/animo" target="_blank" rel="noopener">View on GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container split">
+        <div>
+          <p class="section-label">Honors &amp; fellowships</p>
+          <h2>Recognition</h2>
+          <ul class="honors">
+            <li><strong>NSF CI Compass Fellow</strong>: researched data life-cycle optimization at the LIGO &amp; Virgo gravitational-wave observatories</li>
+            <li><strong>Break Through Tech AI Fellow</strong>: building ML solutions</li>
+            <li><strong>Basta × Google Code2Career Fellow</strong> (G-SWEP)</li>
+            <li><strong>Hackathon Winner</strong>: JacHacks, University of Michigan</li>
+            <li><strong>National Gold Medalist</strong>: Physics Olympiad</li>
+          </ul>
+        </div>
+        <div id="skills">
+          <p class="section-label">Skills</p>
+          <h2>Toolbox</h2>
+          <dl class="skills">
+            <dt>Languages</dt>
+            <dd>C, C++, Rust, Python, CUDA, Fortran, HDL, Assembly, MATLAB, JavaScript, Bash</dd>
+            <dt>Systems &amp; HPC</dt>
+            <dd>Linux, MPI, OpenMP, OpenACC, CUDA-Q, HPE Cray EX, Git, JupyterHub</dd>
+            <dt>AI / ML</dt>
+            <dd>PyTorch, TensorFlow, Hugging Face, OpenCV, LangChain, RAG, MCP, OpenAI &amp; Anthropic APIs</dd>
+            <dt>Hardware &amp; design</dt>
+            <dd>Digital logic, circuit design, Arduino, ESP32, Raspberry Pi, SolidWorks, ANSYS</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact">
+        <p class="section-label">Contact</p>
+        <h2>Let's build something.</h2>
+        <p>I'm open to research collaborations, internships, and interesting systems or AI problems. The fastest way to reach me is email.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:naeem.islam@ttu.edu">
+            <svg class="icon"><use href="#i-mail"/></svg> naeem.islam@ttu.edu
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/mdnaeemislam" target="_blank" rel="noopener">
+            <svg class="icon"><use href="#i-linkedin"/></svg> LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/naeemexe" target="_blank" rel="noopener">
+            <svg class="icon"><use href="#i-github"/></svg> GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>© <span id="year">2026</span> Md Naeem Islam · Lubbock, Texas</p>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
 </html>
